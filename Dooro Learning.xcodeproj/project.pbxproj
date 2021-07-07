@@ -40,9 +40,9 @@
 		90EE9F0C26938B8F00E86C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EE9F0B26938B8F00E86C66 /* LaunchScreen.storyboard */; };
 		90EE9F0E2693A3BD00E86C66 /* firstpageDooro.png in Resources */ = {isa = PBXBuildFile; fileRef = 90EE9F0D2693A3BD00E86C66 /* firstpageDooro.png */; };
 		90EE9F122693A79C00E86C66 /* doorobearcouple.png in Resources */ = {isa = PBXBuildFile; fileRef = 90EE9F112693A79C00E86C66 /* doorobearcouple.png */; };
-		9B530249C04D5BC5141DDBEB /* Pods_Dooro_LearinngTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF9E508DF5C70B29AEA3B33 /* Pods_Dooro_LearinngTests.framework */; };
-		ACD3494C5E0444879DF68732 /* Pods_Dooro_Learinng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4383AA56B1B85A093BE7A4 /* Pods_Dooro_Learinng.framework */; };
-		B0AC7ED8C381064874F15848 /* Pods_Dooro_Learinng_Dooro_LearinngUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074314769231DA14FB5662E7 /* Pods_Dooro_Learinng_Dooro_LearinngUITests.framework */; };
+		A3564A7DCB857C216AB113AF /* Pods_Dooro_Learning_Dooro_LearningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E04BC2F8DC7D2944E11D001 /* Pods_Dooro_Learning_Dooro_LearningUITests.framework */; };
+		ABDD5E97EB7BC58388E4089D /* Pods_Dooro_Learning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BDF75E47FBCFAEA71EF8D24 /* Pods_Dooro_Learning.framework */; };
+		B57AB2FCD9BFD56CD3A458A7 /* Pods_Dooro_LearningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC70259EE50AA42CE1E871F3 /* Pods_Dooro_LearningTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,10 +63,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		074314769231DA14FB5662E7 /* Pods_Dooro_Learinng_Dooro_LearinngUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dooro_Learinng_Dooro_LearinngUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05398081444FCB6FA7C6268B /* Pods-Dooro LearningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro LearningTests.release.xcconfig"; path = "Target Support Files/Pods-Dooro LearningTests/Pods-Dooro LearningTests.release.xcconfig"; sourceTree = "<group>"; };
 		0D76AFF0F27422F948F5EEF5 /* Pods-Dooro Learinng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro Learinng.debug.xcconfig"; path = "Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng.debug.xcconfig"; sourceTree = "<group>"; };
 		1BBE4857DD7F72B336A6F660 /* Pods-Dooro Learinng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro Learinng.release.xcconfig"; path = "Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng.release.xcconfig"; sourceTree = "<group>"; };
+		2865E4F50A0C87C0642189D9 /* Pods-Dooro Learning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro Learning.debug.xcconfig"; path = "Target Support Files/Pods-Dooro Learning/Pods-Dooro Learning.debug.xcconfig"; sourceTree = "<group>"; };
+		2BDF75E47FBCFAEA71EF8D24 /* Pods_Dooro_Learning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dooro_Learning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0511A9D88B21DBCD8A6E3C /* Pods-Dooro Learning-Dooro LearningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro Learning-Dooro LearningUITests.release.xcconfig"; path = "Target Support Files/Pods-Dooro Learning-Dooro LearningUITests/Pods-Dooro Learning-Dooro LearningUITests.release.xcconfig"; sourceTree = "<group>"; };
 		394631FCD4066076FA1670A1 /* Pods-Dooro LearinngTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro LearinngTests.debug.xcconfig"; path = "Target Support Files/Pods-Dooro LearinngTests/Pods-Dooro LearinngTests.debug.xcconfig"; sourceTree = "<group>"; };
+		414656D968A5CD3F57A1816E /* Pods-Dooro Learning-Dooro LearningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro Learning-Dooro LearningUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dooro Learning-Dooro LearningUITests/Pods-Dooro Learning-Dooro LearningUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E04BC2F8DC7D2944E11D001 /* Pods_Dooro_Learning_Dooro_LearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dooro_Learning_Dooro_LearningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FEE11611FB1899B8DA79A2B /* Pods-Dooro LearningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro LearningTests.debug.xcconfig"; path = "Target Support Files/Pods-Dooro LearningTests/Pods-Dooro LearningTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9025F0432685C7BF001F18E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9025F0452685D3A0001F18E4 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		9025F04A2685D9AE001F18E4 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
@@ -76,9 +82,9 @@
 		902FD7A72685877D0009C96E /* looseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = looseViewController.swift; sourceTree = "<group>"; };
 		902FD7A9268588590009C96E /* explanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explanViewController.swift; sourceTree = "<group>"; };
 		902FD7AB2685A5F70009C96E /* hangmanAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hangmanAddViewController.swift; sourceTree = "<group>"; };
-		905B2A1626954968000EA198 /* Dooro Learinng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dooro Learinng.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		905B2A1726954968000EA198 /* Dooro LearinngTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dooro LearinngTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		905B2A1826954968000EA198 /* Dooro LearinngUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dooro LearinngUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905B2A1626954968000EA198 /* Dooro Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dooro Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905B2A1726954968000EA198 /* Dooro LearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dooro LearningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905B2A1826954968000EA198 /* Dooro LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dooro LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		905B2A19269549BB000EA198 /* RecoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryViewController.swift; sourceTree = "<group>"; };
 		907F86142690C59800C34942 /* facebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookViewController.swift; sourceTree = "<group>"; };
 		909403732691AA1400A7ADE8 /* googleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googleViewController.swift; sourceTree = "<group>"; };
@@ -104,11 +110,11 @@
 		90EE9F0B26938B8F00E86C66 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90EE9F0D2693A3BD00E86C66 /* firstpageDooro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstpageDooro.png; sourceTree = "<group>"; };
 		90EE9F112693A79C00E86C66 /* doorobearcouple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doorobearcouple.png; sourceTree = "<group>"; };
+		95DC82961EF6000E9866E636 /* Pods-Dooro Learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro Learning.release.xcconfig"; path = "Target Support Files/Pods-Dooro Learning/Pods-Dooro Learning.release.xcconfig"; sourceTree = "<group>"; };
 		980D2674AD064C8177E1336B /* Pods-Dooro LearinngTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro LearinngTests.release.xcconfig"; path = "Target Support Files/Pods-Dooro LearinngTests/Pods-Dooro LearinngTests.release.xcconfig"; sourceTree = "<group>"; };
 		A58B08C38A15152BC3EC064E /* Pods-Dooro Learinng-Dooro LearinngUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro Learinng-Dooro LearinngUITests.release.xcconfig"; path = "Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests.release.xcconfig"; sourceTree = "<group>"; };
-		BA4383AA56B1B85A093BE7A4 /* Pods_Dooro_Learinng.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dooro_Learinng.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E3EDEA787367059E96C16C /* Pods-Dooro Learinng-Dooro LearinngUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro Learinng-Dooro LearinngUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		EBF9E508DF5C70B29AEA3B33 /* Pods_Dooro_LearinngTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dooro_LearinngTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC70259EE50AA42CE1E871F3 /* Pods_Dooro_LearningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dooro_LearningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD3494C5E0444879DF68732 /* Pods_Dooro_Learinng.framework in Frameworks */,
+				ABDD5E97EB7BC58388E4089D /* Pods_Dooro_Learning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B530249C04D5BC5141DDBEB /* Pods_Dooro_LearinngTests.framework in Frameworks */,
+				B57AB2FCD9BFD56CD3A458A7 /* Pods_Dooro_LearningTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0AC7ED8C381064874F15848 /* Pods_Dooro_Learinng_Dooro_LearinngUITests.framework in Frameworks */,
+				A3564A7DCB857C216AB113AF /* Pods_Dooro_Learning_Dooro_LearningUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +148,9 @@
 		6046F0ECE3F0E2B1FFE68A58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA4383AA56B1B85A093BE7A4 /* Pods_Dooro_Learinng.framework */,
-				074314769231DA14FB5662E7 /* Pods_Dooro_Learinng_Dooro_LearinngUITests.framework */,
-				EBF9E508DF5C70B29AEA3B33 /* Pods_Dooro_LearinngTests.framework */,
+				2BDF75E47FBCFAEA71EF8D24 /* Pods_Dooro_Learning.framework */,
+				5E04BC2F8DC7D2944E11D001 /* Pods_Dooro_Learning_Dooro_LearningUITests.framework */,
+				DC70259EE50AA42CE1E871F3 /* Pods_Dooro_LearningTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -176,13 +182,13 @@
 				90ECCED0267D88E200122F77 /* Wordcards+CoreDataClass.swift */,
 				90ECCED1267D88E200122F77 /* Wordcards+CoreDataProperties.swift */,
 				90ECCE7B267D4A5B00122F77 /* Dooro Learinng */,
-				90ECCE95267D4A5B00122F77 /* Dooro LearinngTests */,
-				90ECCEA0267D4A5B00122F77 /* Dooro LearinngUITests */,
+				90ECCE95267D4A5B00122F77 /* Dooro LearningTests */,
+				90ECCEA0267D4A5B00122F77 /* Dooro LearningUITests */,
 				C4FC20E7EB0D0C99CC2A6E63 /* Pods */,
 				6046F0ECE3F0E2B1FFE68A58 /* Frameworks */,
-				905B2A1626954968000EA198 /* Dooro Learinng.app */,
-				905B2A1726954968000EA198 /* Dooro LearinngTests.xctest */,
-				905B2A1826954968000EA198 /* Dooro LearinngUITests.xctest */,
+				905B2A1626954968000EA198 /* Dooro Learning.app */,
+				905B2A1726954968000EA198 /* Dooro LearningTests.xctest */,
+				905B2A1826954968000EA198 /* Dooro LearningUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,23 +213,23 @@
 			path = "Dooro Learinng";
 			sourceTree = "<group>";
 		};
-		90ECCE95267D4A5B00122F77 /* Dooro LearinngTests */ = {
+		90ECCE95267D4A5B00122F77 /* Dooro LearningTests */ = {
 			isa = PBXGroup;
 			children = (
 				90ECCE96267D4A5B00122F77 /* Dooro_LearinngTests.swift */,
 				90ECCE98267D4A5B00122F77 /* Info.plist */,
 			);
-			path = "Dooro LearinngTests";
+			path = "Dooro LearningTests";
 			sourceTree = "<group>";
 		};
-		90ECCEA0267D4A5B00122F77 /* Dooro LearinngUITests */ = {
+		90ECCEA0267D4A5B00122F77 /* Dooro LearningUITests */ = {
 			isa = PBXGroup;
 			children = (
 				90ECCEA1267D4A5B00122F77 /* Dooro_LearinngUITests.swift */,
 				90ECCEA3267D4A5B00122F77 /* Info.plist */,
 				90ECCEB1267D5B5500122F77 /* DooroBearGoodLuck.jpeg */,
 			);
-			path = "Dooro LearinngUITests";
+			path = "Dooro LearningUITests";
 			sourceTree = "<group>";
 		};
 		C4FC20E7EB0D0C99CC2A6E63 /* Pods */ = {
@@ -235,6 +241,12 @@
 				A58B08C38A15152BC3EC064E /* Pods-Dooro Learinng-Dooro LearinngUITests.release.xcconfig */,
 				394631FCD4066076FA1670A1 /* Pods-Dooro LearinngTests.debug.xcconfig */,
 				980D2674AD064C8177E1336B /* Pods-Dooro LearinngTests.release.xcconfig */,
+				2865E4F50A0C87C0642189D9 /* Pods-Dooro Learning.debug.xcconfig */,
+				95DC82961EF6000E9866E636 /* Pods-Dooro Learning.release.xcconfig */,
+				414656D968A5CD3F57A1816E /* Pods-Dooro Learning-Dooro LearningUITests.debug.xcconfig */,
+				2C0511A9D88B21DBCD8A6E3C /* Pods-Dooro Learning-Dooro LearningUITests.release.xcconfig */,
+				6FEE11611FB1899B8DA79A2B /* Pods-Dooro LearningTests.debug.xcconfig */,
+				05398081444FCB6FA7C6268B /* Pods-Dooro LearningTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -242,9 +254,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90ECCE78267D4A5B00122F77 /* Dooro Learinng */ = {
+		90ECCE78267D4A5B00122F77 /* Dooro Learning */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90ECCEA6267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro Learinng" */;
+			buildConfigurationList = 90ECCEA6267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro Learning" */;
 			buildPhases = (
 				5465FC8A29C6AE42DE06D8D5 /* [CP] Check Pods Manifest.lock */,
 				90ECCE75267D4A5B00122F77 /* Sources */,
@@ -257,14 +269,14 @@
 			);
 			dependencies = (
 			);
-			name = "Dooro Learinng";
+			name = "Dooro Learning";
 			productName = "Dooro Learinng";
-			productReference = 905B2A1626954968000EA198 /* Dooro Learinng.app */;
+			productReference = 905B2A1626954968000EA198 /* Dooro Learning.app */;
 			productType = "com.apple.product-type.application";
 		};
-		90ECCE91267D4A5B00122F77 /* Dooro LearinngTests */ = {
+		90ECCE91267D4A5B00122F77 /* Dooro LearningTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90ECCEA9267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro LearinngTests" */;
+			buildConfigurationList = 90ECCEA9267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro LearningTests" */;
 			buildPhases = (
 				A381E239583C1183D3ED3FD9 /* [CP] Check Pods Manifest.lock */,
 				90ECCE8E267D4A5B00122F77 /* Sources */,
@@ -276,14 +288,14 @@
 			dependencies = (
 				90ECCE94267D4A5B00122F77 /* PBXTargetDependency */,
 			);
-			name = "Dooro LearinngTests";
+			name = "Dooro LearningTests";
 			productName = "Dooro LearinngTests";
-			productReference = 905B2A1726954968000EA198 /* Dooro LearinngTests.xctest */;
+			productReference = 905B2A1726954968000EA198 /* Dooro LearningTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		90ECCE9C267D4A5B00122F77 /* Dooro LearinngUITests */ = {
+		90ECCE9C267D4A5B00122F77 /* Dooro LearningUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90ECCEAC267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro LearinngUITests" */;
+			buildConfigurationList = 90ECCEAC267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro LearningUITests" */;
 			buildPhases = (
 				66FE98A0351AC03562AF73AD /* [CP] Check Pods Manifest.lock */,
 				90ECCE99267D4A5B00122F77 /* Sources */,
@@ -297,9 +309,9 @@
 			dependencies = (
 				90ECCE9F267D4A5B00122F77 /* PBXTargetDependency */,
 			);
-			name = "Dooro LearinngUITests";
+			name = "Dooro LearningUITests";
 			productName = "Dooro LearinngUITests";
-			productReference = 905B2A1826954968000EA198 /* Dooro LearinngUITests.xctest */;
+			productReference = 905B2A1826954968000EA198 /* Dooro LearningUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -324,7 +336,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 90ECCE74267D4A5A00122F77 /* Build configuration list for PBXProject "Dooro Learinng" */;
+			buildConfigurationList = 90ECCE74267D4A5A00122F77 /* Build configuration list for PBXProject "Dooro Learning" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -337,9 +349,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90ECCE78267D4A5B00122F77 /* Dooro Learinng */,
-				90ECCE91267D4A5B00122F77 /* Dooro LearinngTests */,
-				90ECCE9C267D4A5B00122F77 /* Dooro LearinngUITests */,
+				90ECCE78267D4A5B00122F77 /* Dooro Learning */,
+				90ECCE91267D4A5B00122F77 /* Dooro LearningTests */,
+				90ECCE9C267D4A5B00122F77 /* Dooro LearningUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -385,15 +397,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learning/Pods-Dooro Learning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learning/Pods-Dooro Learning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dooro Learning/Pods-Dooro Learning-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		23682F8B7B8BF25F1C3855FC /* [CP] Embed Pods Frameworks */ = {
@@ -402,15 +414,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learning-Dooro LearningUITests/Pods-Dooro Learning-Dooro LearningUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learning-Dooro LearningUITests/Pods-Dooro Learning-Dooro LearningUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dooro Learning-Dooro LearningUITests/Pods-Dooro Learning-Dooro LearningUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		364812FB658BD42E2A15079E /* [CP] Copy Pods Resources */ = {
@@ -419,15 +431,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learning-Dooro LearningUITests/Pods-Dooro Learning-Dooro LearningUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learning-Dooro LearningUITests/Pods-Dooro Learning-Dooro LearningUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dooro Learning-Dooro LearningUITests/Pods-Dooro Learning-Dooro LearningUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5465FC8A29C6AE42DE06D8D5 /* [CP] Check Pods Manifest.lock */ = {
@@ -445,7 +457,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Dooro Learinng-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Dooro Learning-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -467,7 +479,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Dooro Learinng-Dooro LearinngUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Dooro Learning-Dooro LearningUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -480,15 +492,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learning/Pods-Dooro Learning-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learning/Pods-Dooro Learning-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dooro Learning/Pods-Dooro Learning-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A381E239583C1183D3ED3FD9 /* [CP] Check Pods Manifest.lock */ = {
@@ -506,7 +518,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Dooro LearinngTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Dooro LearningTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -565,12 +577,12 @@
 /* Begin PBXTargetDependency section */
 		90ECCE94267D4A5B00122F77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 90ECCE78267D4A5B00122F77 /* Dooro Learinng */;
+			target = 90ECCE78267D4A5B00122F77 /* Dooro Learning */;
 			targetProxy = 90ECCE93267D4A5B00122F77 /* PBXContainerItemProxy */;
 		};
 		90ECCE9F267D4A5B00122F77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 90ECCE78267D4A5B00122F77 /* Dooro Learinng */;
+			target = 90ECCE78267D4A5B00122F77 /* Dooro Learning */;
 			targetProxy = 90ECCE9E267D4A5B00122F77 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -705,7 +717,7 @@
 		};
 		90ECCEA7267D4A5B00122F77 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D76AFF0F27422F948F5EEF5 /* Pods-Dooro Learinng.debug.xcconfig */;
+			baseConfigurationReference = 2865E4F50A0C87C0642189D9 /* Pods-Dooro Learning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -725,7 +737,7 @@
 		};
 		90ECCEA8267D4A5B00122F77 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BBE4857DD7F72B336A6F660 /* Pods-Dooro Learinng.release.xcconfig */;
+			baseConfigurationReference = 95DC82961EF6000E9866E636 /* Pods-Dooro Learning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -745,7 +757,7 @@
 		};
 		90ECCEAA267D4A5B00122F77 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 394631FCD4066076FA1670A1 /* Pods-Dooro LearinngTests.debug.xcconfig */;
+			baseConfigurationReference = 6FEE11611FB1899B8DA79A2B /* Pods-Dooro LearningTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -762,13 +774,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dooro Learinng.app/Dooro Learinng";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dooro Learning.app/Dooro Learning";
 			};
 			name = Debug;
 		};
 		90ECCEAB267D4A5B00122F77 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 980D2674AD064C8177E1336B /* Pods-Dooro LearinngTests.release.xcconfig */;
+			baseConfigurationReference = 05398081444FCB6FA7C6268B /* Pods-Dooro LearningTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -785,13 +797,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dooro Learinng.app/Dooro Learinng";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dooro Learning.app/Dooro Learning";
 			};
 			name = Release;
 		};
 		90ECCEAD267D4A5B00122F77 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6E3EDEA787367059E96C16C /* Pods-Dooro Learinng-Dooro LearinngUITests.debug.xcconfig */;
+			baseConfigurationReference = 414656D968A5CD3F57A1816E /* Pods-Dooro Learning-Dooro LearningUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -812,7 +824,7 @@
 		};
 		90ECCEAE267D4A5B00122F77 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A58B08C38A15152BC3EC064E /* Pods-Dooro Learinng-Dooro LearinngUITests.release.xcconfig */;
+			baseConfigurationReference = 2C0511A9D88B21DBCD8A6E3C /* Pods-Dooro Learning-Dooro LearningUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -834,7 +846,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90ECCE74267D4A5A00122F77 /* Build configuration list for PBXProject "Dooro Learinng" */ = {
+		90ECCE74267D4A5A00122F77 /* Build configuration list for PBXProject "Dooro Learning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90ECCEA4267D4A5B00122F77 /* Debug */,
@@ -843,7 +855,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90ECCEA6267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro Learinng" */ = {
+		90ECCEA6267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro Learning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90ECCEA7267D4A5B00122F77 /* Debug */,
@@ -852,7 +864,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90ECCEA9267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro LearinngTests" */ = {
+		90ECCEA9267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro LearningTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90ECCEAA267D4A5B00122F77 /* Debug */,
@@ -861,7 +873,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90ECCEAC267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro LearinngUITests" */ = {
+		90ECCEAC267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro LearningUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90ECCEAD267D4A5B00122F77 /* Debug */,

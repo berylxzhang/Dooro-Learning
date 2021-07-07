@@ -12,7 +12,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="xvx-Ce-GK3">
             <objects>
-                <viewController storyboardIdentifier="signUpViewController" id="Fb8-kt-SMN" customClass="signUpViewController" customModule="Dooro_Learinng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="signUpViewController" id="Fb8-kt-SMN" customClass="signUpViewController" customModule="Dooro_Learning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qan-aw-fjP">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -133,7 +133,7 @@
         <!--Facebook View Controller-->
         <scene sceneID="hL5-fB-e0D">
             <objects>
-                <viewController storyboardIdentifier="facebookView" id="wln-Wl-Ht7" customClass="facebookViewController" customModule="Dooro_Learinng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="facebookView" id="wln-Wl-Ht7" customClass="facebookViewController" customModule="Dooro_Learning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VmW-es-cbk">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -241,7 +241,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Dooro_Learinng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Dooro_Learning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -447,7 +447,7 @@
         <!--Recovery View Controller-->
         <scene sceneID="Bdk-NP-scB">
             <objects>
-                <viewController storyboardIdentifier="RecoveryViewController" id="762-SO-LCW" customClass="RecoveryViewController" customModule="Dooro_Learinng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RecoveryViewController" id="762-SO-LCW" customClass="RecoveryViewController" customModule="Dooro_Learning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Deg-lv-6un">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -597,7 +597,7 @@
         <!--Google View Controller-->
         <scene sceneID="DiV-B3-nzP">
             <objects>
-                <viewController storyboardIdentifier="googleViewController" id="rS0-mn-Jxt" customClass="googleViewController" customModule="Dooro_Learinng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="googleViewController" id="rS0-mn-Jxt" customClass="googleViewController" customModule="Dooro_Learning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E7g-sZ-ADC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -716,7 +716,7 @@
         <!--Hangman Game Controller-->
         <scene sceneID="icI-QA-jgH">
             <objects>
-                <viewController storyboardIdentifier="hangmanGameController" id="vD2-Gd-k4h" customClass="hangmanGameController" customModule="Dooro_Learinng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="hangmanGameController" id="vD2-Gd-k4h" customClass="hangmanGameController" customModule="Dooro_Learning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KY5-uR-GxK">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -931,7 +931,7 @@
         <!--Win View Controller-->
         <scene sceneID="XCh-10-y1G">
             <objects>
-                <viewController storyboardIdentifier="winViewController" id="WfH-cz-Kyc" customClass="winViewController" customModule="Dooro_Learinng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="winViewController" id="WfH-cz-Kyc" customClass="winViewController" customModule="Dooro_Learning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Jy-qq-bfr">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1018,7 +1018,7 @@
         <!--Loose View Controller-->
         <scene sceneID="6CS-ea-UGg">
             <objects>
-                <viewController storyboardIdentifier="looseViewController" id="zA3-f6-Pcs" customClass="looseViewController" customModule="Dooro_Learinng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="looseViewController" id="zA3-f6-Pcs" customClass="looseViewController" customModule="Dooro_Learning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XVx-aS-YKd">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1105,7 +1105,7 @@
         <!--Explan View Controller-->
         <scene sceneID="6yW-Eh-dGa">
             <objects>
-                <viewController storyboardIdentifier="explanViewController" id="9BG-fO-vEV" customClass="explanViewController" customModule="Dooro_Learinng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="explanViewController" id="9BG-fO-vEV" customClass="explanViewController" customModule="Dooro_Learning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mj0-Oi-6LP">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1313,7 +1313,7 @@
         <!--Hangman Add View Controller-->
         <scene sceneID="DZg-Of-agb">
             <objects>
-                <viewController storyboardIdentifier="hangmanAddViewController" id="MIM-Gw-sn6" customClass="hangmanAddViewController" customModule="Dooro_Learinng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="hangmanAddViewController" id="MIM-Gw-sn6" customClass="hangmanAddViewController" customModule="Dooro_Learning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WYf-w3-1QQ">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1442,7 +1442,7 @@
         <!--Choose Mode View Controller-->
         <scene sceneID="XoP-rT-yGU">
             <objects>
-                <viewController storyboardIdentifier="ChooseModeViewController" wantsFullScreenLayout="YES" id="e8C-vg-ARh" customClass="ChooseModeViewController" customModule="Dooro_Learinng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChooseModeViewController" wantsFullScreenLayout="YES" id="e8C-vg-ARh" customClass="ChooseModeViewController" customModule="Dooro_Learning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2h1-ix-AgV">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1567,7 +1567,7 @@
         <!--Flask Card View Controller-->
         <scene sceneID="8Dw-xA-pFE">
             <objects>
-                <viewController storyboardIdentifier="FlashCardView" id="hIv-9u-VlW" customClass="FlaskCardViewController" customModule="Dooro_Learinng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FlashCardView" id="hIv-9u-VlW" customClass="FlaskCardViewController" customModule="Dooro_Learning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BUZ-Qo-0av">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1774,7 +1774,7 @@
         <!--Add Word View Controller-->
         <scene sceneID="e5z-dn-w38">
             <objects>
-                <viewController storyboardIdentifier="AddWordViewController" id="Ro3-zn-2sa" customClass="AddWordViewController" customModule="Dooro_Learinng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddWordViewController" id="Ro3-zn-2sa" customClass="AddWordViewController" customModule="Dooro_Learning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="itR-ER-dtD">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

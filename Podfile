@@ -1,11 +1,11 @@
 # Uncomment the next line to define a global platform for your project
  platform :ios, '9.0'
 
-target 'Dooro Learinng' do
+target 'Dooro Learning' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Dooro Learinng
+  # Pods for Dooro Learning
   pod 'TinyConstraints'
   pod 'KMPlaceholderTextView'
   pod 'MBProgressHUD', '~> 1.1.0'
@@ -21,12 +21,12 @@ target 'Dooro Learinng' do
   pod 'SDWebImage', '~> 5.0'
   pod 'PaddingLabel', '1.2'
   
-  target 'Dooro LearinngTests' do
+  target 'Dooro LearningTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'Dooro LearinngUITests' do
+  target 'Dooro LearningUITests' do
     # Pods for testing
   end
 
