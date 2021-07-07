@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9025F0442685C7BF001F18E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9025F0432685C7BF001F18E4 /* GoogleService-Info.plist */; };
+		9025F0462685D3A0001F18E4 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9025F0452685D3A0001F18E4 /* AuthManager.swift */; };
+		9025F04B2685D9AE001F18E4 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9025F04A2685D9AE001F18E4 /* signUpViewController.swift */; };
+		9025F04D26867656001F18E4 /* RecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9025F04C26867656001F18E4 /* RecoveryViewController.swift */; };
+		902FD7A426852EC40009C96E /* hangmanGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902FD7A326852EC40009C96E /* hangmanGameController.swift */; };
+		902FD7A6268585020009C96E /* winViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902FD7A5268585020009C96E /* winViewController.swift */; };
+		902FD7A82685877D0009C96E /* looseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902FD7A72685877D0009C96E /* looseViewController.swift */; };
+		902FD7AA268588590009C96E /* explanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902FD7A9268588590009C96E /* explanViewController.swift */; };
+		902FD7AC2685A5F70009C96E /* hangmanAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902FD7AB2685A5F70009C96E /* hangmanAddViewController.swift */; };
+		905B2A1A269549BB000EA198 /* RecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905B2A19269549BB000EA198 /* RecoveryViewController.swift */; };
+		907F86152690C59800C34942 /* facebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907F86142690C59800C34942 /* facebookViewController.swift */; };
+		909403742691AA1400A7ADE8 /* googleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909403732691AA1400A7ADE8 /* googleViewController.swift */; };
+		90ECCE7D267D4A5B00122F77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECCE7C267D4A5B00122F77 /* AppDelegate.swift */; };
+		90ECCE7F267D4A5B00122F77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECCE7E267D4A5B00122F77 /* SceneDelegate.swift */; };
+		90ECCE81267D4A5B00122F77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECCE80267D4A5B00122F77 /* ViewController.swift */; };
+		90ECCE84267D4A5B00122F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90ECCE82267D4A5B00122F77 /* Main.storyboard */; };
+		90ECCE87267D4A5B00122F77 /* Dooro_Learinng.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90ECCE85267D4A5B00122F77 /* Dooro_Learinng.xcdatamodeld */; };
+		90ECCE89267D4A5B00122F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90ECCE88267D4A5B00122F77 /* Assets.xcassets */; };
+		90ECCE97267D4A5B00122F77 /* Dooro_LearinngTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECCE96267D4A5B00122F77 /* Dooro_LearinngTests.swift */; };
+		90ECCEA2267D4A5B00122F77 /* Dooro_LearinngUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECCEA1267D4A5B00122F77 /* Dooro_LearinngUITests.swift */; };
+		90ECCEB0267D4EAD00122F77 /* DooroLearning-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 90ECCEAF267D4EAD00122F77 /* DooroLearning-1.jpeg */; };
+		90ECCEB2267D5B5500122F77 /* DooroBearGoodLuck.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 90ECCEB1267D5B5500122F77 /* DooroBearGoodLuck.jpeg */; };
+		90ECCEC3267D779500122F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90ECCE88267D4A5B00122F77 /* Assets.xcassets */; };
+		90ECCEC4267D779600122F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90ECCE88267D4A5B00122F77 /* Assets.xcassets */; };
+		90ECCECA267D84F000122F77 /* ChooseModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECCEC9267D84F000122F77 /* ChooseModeViewController.swift */; };
+		90ECCECD267D86B400122F77 /* FlaskCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECCECC267D86B400122F77 /* FlaskCardViewController.swift */; };
+		90ECCECF267D873100122F77 /* AddWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECCECE267D873100122F77 /* AddWordViewController.swift */; };
+		90ECCED2267D88E200122F77 /* Wordcards+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECCED0267D88E200122F77 /* Wordcards+CoreDataClass.swift */; };
+		90ECCED3267D88E200122F77 /* Wordcards+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ECCED1267D88E200122F77 /* Wordcards+CoreDataProperties.swift */; };
+		90EE9F0A2693536800E86C66 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EE9F092693536800E86C66 /* extension.swift */; };
+		90EE9F0C26938B8F00E86C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EE9F0B26938B8F00E86C66 /* LaunchScreen.storyboard */; };
+		90EE9F0E2693A3BD00E86C66 /* firstpageDooro.png in Resources */ = {isa = PBXBuildFile; fileRef = 90EE9F0D2693A3BD00E86C66 /* firstpageDooro.png */; };
+		90EE9F122693A79C00E86C66 /* doorobearcouple.png in Resources */ = {isa = PBXBuildFile; fileRef = 90EE9F112693A79C00E86C66 /* doorobearcouple.png */; };
+		9B530249C04D5BC5141DDBEB /* Pods_Dooro_LearinngTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF9E508DF5C70B29AEA3B33 /* Pods_Dooro_LearinngTests.framework */; };
+		ACD3494C5E0444879DF68732 /* Pods_Dooro_Learinng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4383AA56B1B85A093BE7A4 /* Pods_Dooro_Learinng.framework */; };
+		B0AC7ED8C381064874F15848 /* Pods_Dooro_Learinng_Dooro_LearinngUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074314769231DA14FB5662E7 /* Pods_Dooro_Learinng_Dooro_LearinngUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90ECCE93267D4A5B00122F77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90ECCE71267D4A5A00122F77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90ECCE78267D4A5B00122F77;
+			remoteInfo = "Dooro Learinng";
+		};
+		90ECCE9E267D4A5B00122F77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90ECCE71267D4A5A00122F77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90ECCE78267D4A5B00122F77;
+			remoteInfo = "Dooro Learinng";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074314769231DA14FB5662E7 /* Pods_Dooro_Learinng_Dooro_LearinngUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dooro_Learinng_Dooro_LearinngUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D76AFF0F27422F948F5EEF5 /* Pods-Dooro Learinng.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro Learinng.debug.xcconfig"; path = "Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng.debug.xcconfig"; sourceTree = "<group>"; };
+		1BBE4857DD7F72B336A6F660 /* Pods-Dooro Learinng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro Learinng.release.xcconfig"; path = "Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng.release.xcconfig"; sourceTree = "<group>"; };
+		394631FCD4066076FA1670A1 /* Pods-Dooro LearinngTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro LearinngTests.debug.xcconfig"; path = "Target Support Files/Pods-Dooro LearinngTests/Pods-Dooro LearinngTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9025F0432685C7BF001F18E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9025F0452685D3A0001F18E4 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		9025F04A2685D9AE001F18E4 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		9025F04C26867656001F18E4 /* RecoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryViewController.swift; sourceTree = "<group>"; };
+		902FD7A326852EC40009C96E /* hangmanGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hangmanGameController.swift; sourceTree = "<group>"; };
+		902FD7A5268585020009C96E /* winViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = winViewController.swift; sourceTree = "<group>"; };
+		902FD7A72685877D0009C96E /* looseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = looseViewController.swift; sourceTree = "<group>"; };
+		902FD7A9268588590009C96E /* explanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explanViewController.swift; sourceTree = "<group>"; };
+		902FD7AB2685A5F70009C96E /* hangmanAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hangmanAddViewController.swift; sourceTree = "<group>"; };
+		905B2A1626954968000EA198 /* Dooro Learinng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dooro Learinng.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905B2A1726954968000EA198 /* Dooro LearinngTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dooro LearinngTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905B2A1826954968000EA198 /* Dooro LearinngUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dooro LearinngUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905B2A19269549BB000EA198 /* RecoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryViewController.swift; sourceTree = "<group>"; };
+		907F86142690C59800C34942 /* facebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookViewController.swift; sourceTree = "<group>"; };
+		909403732691AA1400A7ADE8 /* googleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = googleViewController.swift; sourceTree = "<group>"; };
+		90ECCE7C267D4A5B00122F77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90ECCE7E267D4A5B00122F77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		90ECCE80267D4A5B00122F77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90ECCE83267D4A5B00122F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90ECCE86267D4A5B00122F77 /* Dooro_Learinng.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dooro_Learinng.xcdatamodel; sourceTree = "<group>"; };
+		90ECCE88267D4A5B00122F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90ECCE8D267D4A5B00122F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90ECCE96267D4A5B00122F77 /* Dooro_LearinngTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dooro_LearinngTests.swift; sourceTree = "<group>"; };
+		90ECCE98267D4A5B00122F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90ECCEA1267D4A5B00122F77 /* Dooro_LearinngUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dooro_LearinngUITests.swift; sourceTree = "<group>"; };
+		90ECCEA3267D4A5B00122F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90ECCEAF267D4EAD00122F77 /* DooroLearning-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "DooroLearning-1.jpeg"; path = "Assets.xcassets/DooroLearning.imageset/DooroLearning-1.jpeg"; sourceTree = "<group>"; };
+		90ECCEB1267D5B5500122F77 /* DooroBearGoodLuck.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DooroBearGoodLuck.jpeg; path = ../../DooroBearGoodLuck.jpeg; sourceTree = "<group>"; };
+		90ECCEC9267D84F000122F77 /* ChooseModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseModeViewController.swift; sourceTree = "<group>"; };
+		90ECCECC267D86B400122F77 /* FlaskCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlaskCardViewController.swift; sourceTree = "<group>"; };
+		90ECCECE267D873100122F77 /* AddWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordViewController.swift; sourceTree = "<group>"; };
+		90ECCED0267D88E200122F77 /* Wordcards+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wordcards+CoreDataClass.swift"; sourceTree = "<group>"; };
+		90ECCED1267D88E200122F77 /* Wordcards+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wordcards+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		90EE9F092693536800E86C66 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		90EE9F0B26938B8F00E86C66 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90EE9F0D2693A3BD00E86C66 /* firstpageDooro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstpageDooro.png; sourceTree = "<group>"; };
+		90EE9F112693A79C00E86C66 /* doorobearcouple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doorobearcouple.png; sourceTree = "<group>"; };
+		980D2674AD064C8177E1336B /* Pods-Dooro LearinngTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro LearinngTests.release.xcconfig"; path = "Target Support Files/Pods-Dooro LearinngTests/Pods-Dooro LearinngTests.release.xcconfig"; sourceTree = "<group>"; };
+		A58B08C38A15152BC3EC064E /* Pods-Dooro Learinng-Dooro LearinngUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro Learinng-Dooro LearinngUITests.release.xcconfig"; path = "Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA4383AA56B1B85A093BE7A4 /* Pods_Dooro_Learinng.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dooro_Learinng.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E3EDEA787367059E96C16C /* Pods-Dooro Learinng-Dooro LearinngUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dooro Learinng-Dooro LearinngUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBF9E508DF5C70B29AEA3B33 /* Pods_Dooro_LearinngTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dooro_LearinngTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90ECCE76267D4A5B00122F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD3494C5E0444879DF68732 /* Pods_Dooro_Learinng.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ECCE8F267D4A5B00122F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B530249C04D5BC5141DDBEB /* Pods_Dooro_LearinngTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ECCE9A267D4A5B00122F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0AC7ED8C381064874F15848 /* Pods_Dooro_Learinng_Dooro_LearinngUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6046F0ECE3F0E2B1FFE68A58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA4383AA56B1B85A093BE7A4 /* Pods_Dooro_Learinng.framework */,
+				074314769231DA14FB5662E7 /* Pods_Dooro_Learinng_Dooro_LearinngUITests.framework */,
+				EBF9E508DF5C70B29AEA3B33 /* Pods_Dooro_LearinngTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9025F0492685D8C3001F18E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				902FD7AB2685A5F70009C96E /* hangmanAddViewController.swift */,
+				902FD7A72685877D0009C96E /* looseViewController.swift */,
+				9025F04A2685D9AE001F18E4 /* signUpViewController.swift */,
+				902FD7A5268585020009C96E /* winViewController.swift */,
+				902FD7A326852EC40009C96E /* hangmanGameController.swift */,
+				902FD7A9268588590009C96E /* explanViewController.swift */,
+				90ECCE80267D4A5B00122F77 /* ViewController.swift */,
+				90ECCEC9267D84F000122F77 /* ChooseModeViewController.swift */,
+				90ECCECC267D86B400122F77 /* FlaskCardViewController.swift */,
+				90ECCECE267D873100122F77 /* AddWordViewController.swift */,
+				9025F04C26867656001F18E4 /* RecoveryViewController.swift */,
+				907F86142690C59800C34942 /* facebookViewController.swift */,
+				909403732691AA1400A7ADE8 /* googleViewController.swift */,
+				905B2A19269549BB000EA198 /* RecoveryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90ECCE70267D4A5A00122F77 = {
+			isa = PBXGroup;
+			children = (
+				90ECCED0267D88E200122F77 /* Wordcards+CoreDataClass.swift */,
+				90ECCED1267D88E200122F77 /* Wordcards+CoreDataProperties.swift */,
+				90ECCE7B267D4A5B00122F77 /* Dooro Learinng */,
+				90ECCE95267D4A5B00122F77 /* Dooro LearinngTests */,
+				90ECCEA0267D4A5B00122F77 /* Dooro LearinngUITests */,
+				C4FC20E7EB0D0C99CC2A6E63 /* Pods */,
+				6046F0ECE3F0E2B1FFE68A58 /* Frameworks */,
+				905B2A1626954968000EA198 /* Dooro Learinng.app */,
+				905B2A1726954968000EA198 /* Dooro LearinngTests.xctest */,
+				905B2A1826954968000EA198 /* Dooro LearinngUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		90ECCE7B267D4A5B00122F77 /* Dooro Learinng */ = {
+			isa = PBXGroup;
+			children = (
+				9025F0492685D8C3001F18E4 /* Controller */,
+				90ECCE7C267D4A5B00122F77 /* AppDelegate.swift */,
+				90ECCE7E267D4A5B00122F77 /* SceneDelegate.swift */,
+				90ECCE82267D4A5B00122F77 /* Main.storyboard */,
+				90EE9F092693536800E86C66 /* extension.swift */,
+				90ECCE88267D4A5B00122F77 /* Assets.xcassets */,
+				9025F0432685C7BF001F18E4 /* GoogleService-Info.plist */,
+				90ECCE8D267D4A5B00122F77 /* Info.plist */,
+				90EE9F112693A79C00E86C66 /* doorobearcouple.png */,
+				90EE9F0D2693A3BD00E86C66 /* firstpageDooro.png */,
+				90ECCEAF267D4EAD00122F77 /* DooroLearning-1.jpeg */,
+				90ECCE85267D4A5B00122F77 /* Dooro_Learinng.xcdatamodeld */,
+				9025F0452685D3A0001F18E4 /* AuthManager.swift */,
+				90EE9F0B26938B8F00E86C66 /* LaunchScreen.storyboard */,
+			);
+			path = "Dooro Learinng";
+			sourceTree = "<group>";
+		};
+		90ECCE95267D4A5B00122F77 /* Dooro LearinngTests */ = {
+			isa = PBXGroup;
+			children = (
+				90ECCE96267D4A5B00122F77 /* Dooro_LearinngTests.swift */,
+				90ECCE98267D4A5B00122F77 /* Info.plist */,
+			);
+			path = "Dooro LearinngTests";
+			sourceTree = "<group>";
+		};
+		90ECCEA0267D4A5B00122F77 /* Dooro LearinngUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90ECCEA1267D4A5B00122F77 /* Dooro_LearinngUITests.swift */,
+				90ECCEA3267D4A5B00122F77 /* Info.plist */,
+				90ECCEB1267D5B5500122F77 /* DooroBearGoodLuck.jpeg */,
+			);
+			path = "Dooro LearinngUITests";
+			sourceTree = "<group>";
+		};
+		C4FC20E7EB0D0C99CC2A6E63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D76AFF0F27422F948F5EEF5 /* Pods-Dooro Learinng.debug.xcconfig */,
+				1BBE4857DD7F72B336A6F660 /* Pods-Dooro Learinng.release.xcconfig */,
+				D6E3EDEA787367059E96C16C /* Pods-Dooro Learinng-Dooro LearinngUITests.debug.xcconfig */,
+				A58B08C38A15152BC3EC064E /* Pods-Dooro Learinng-Dooro LearinngUITests.release.xcconfig */,
+				394631FCD4066076FA1670A1 /* Pods-Dooro LearinngTests.debug.xcconfig */,
+				980D2674AD064C8177E1336B /* Pods-Dooro LearinngTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90ECCE78267D4A5B00122F77 /* Dooro Learinng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90ECCEA6267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro Learinng" */;
+			buildPhases = (
+				5465FC8A29C6AE42DE06D8D5 /* [CP] Check Pods Manifest.lock */,
+				90ECCE75267D4A5B00122F77 /* Sources */,
+				90ECCE76267D4A5B00122F77 /* Frameworks */,
+				90ECCE77267D4A5B00122F77 /* Resources */,
+				124BCEEFD7E056617CCFB13A /* [CP] Embed Pods Frameworks */,
+				981C5D915463BFAC7C6DE4FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dooro Learinng";
+			productName = "Dooro Learinng";
+			productReference = 905B2A1626954968000EA198 /* Dooro Learinng.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90ECCE91267D4A5B00122F77 /* Dooro LearinngTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90ECCEA9267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro LearinngTests" */;
+			buildPhases = (
+				A381E239583C1183D3ED3FD9 /* [CP] Check Pods Manifest.lock */,
+				90ECCE8E267D4A5B00122F77 /* Sources */,
+				90ECCE8F267D4A5B00122F77 /* Frameworks */,
+				90ECCE90267D4A5B00122F77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90ECCE94267D4A5B00122F77 /* PBXTargetDependency */,
+			);
+			name = "Dooro LearinngTests";
+			productName = "Dooro LearinngTests";
+			productReference = 905B2A1726954968000EA198 /* Dooro LearinngTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90ECCE9C267D4A5B00122F77 /* Dooro LearinngUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90ECCEAC267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro LearinngUITests" */;
+			buildPhases = (
+				66FE98A0351AC03562AF73AD /* [CP] Check Pods Manifest.lock */,
+				90ECCE99267D4A5B00122F77 /* Sources */,
+				90ECCE9A267D4A5B00122F77 /* Frameworks */,
+				90ECCE9B267D4A5B00122F77 /* Resources */,
+				23682F8B7B8BF25F1C3855FC /* [CP] Embed Pods Frameworks */,
+				364812FB658BD42E2A15079E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90ECCE9F267D4A5B00122F77 /* PBXTargetDependency */,
+			);
+			name = "Dooro LearinngUITests";
+			productName = "Dooro LearinngUITests";
+			productReference = 905B2A1826954968000EA198 /* Dooro LearinngUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90ECCE71267D4A5A00122F77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					90ECCE78267D4A5B00122F77 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					90ECCE91267D4A5B00122F77 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 90ECCE78267D4A5B00122F77;
+					};
+					90ECCE9C267D4A5B00122F77 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 90ECCE78267D4A5B00122F77;
+					};
+				};
+			};
+			buildConfigurationList = 90ECCE74267D4A5A00122F77 /* Build configuration list for PBXProject "Dooro Learinng" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90ECCE70267D4A5A00122F77;
+			productRefGroup = 90ECCE70267D4A5A00122F77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90ECCE78267D4A5B00122F77 /* Dooro Learinng */,
+				90ECCE91267D4A5B00122F77 /* Dooro LearinngTests */,
+				90ECCE9C267D4A5B00122F77 /* Dooro LearinngUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90ECCE77267D4A5B00122F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9025F0442685C7BF001F18E4 /* GoogleService-Info.plist in Resources */,
+				90EE9F0C26938B8F00E86C66 /* LaunchScreen.storyboard in Resources */,
+				90ECCEB0267D4EAD00122F77 /* DooroLearning-1.jpeg in Resources */,
+				90EE9F122693A79C00E86C66 /* doorobearcouple.png in Resources */,
+				90ECCE89267D4A5B00122F77 /* Assets.xcassets in Resources */,
+				90EE9F0E2693A3BD00E86C66 /* firstpageDooro.png in Resources */,
+				90ECCE84267D4A5B00122F77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ECCE90267D4A5B00122F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ECCEC3267D779500122F77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ECCE9B267D4A5B00122F77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ECCEC4267D779600122F77 /* Assets.xcassets in Resources */,
+				90ECCEB2267D5B5500122F77 /* DooroBearGoodLuck.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		124BCEEFD7E056617CCFB13A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23682F8B7B8BF25F1C3855FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		364812FB658BD42E2A15079E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng-Dooro LearinngUITests/Pods-Dooro Learinng-Dooro LearinngUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5465FC8A29C6AE42DE06D8D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dooro Learinng-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66FE98A0351AC03562AF73AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dooro Learinng-Dooro LearinngUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		981C5D915463BFAC7C6DE4FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dooro Learinng/Pods-Dooro Learinng-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A381E239583C1183D3ED3FD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dooro LearinngTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90ECCE75267D4A5B00122F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ECCE81267D4A5B00122F77 /* ViewController.swift in Sources */,
+				90ECCE87267D4A5B00122F77 /* Dooro_Learinng.xcdatamodeld in Sources */,
+				902FD7A426852EC40009C96E /* hangmanGameController.swift in Sources */,
+				90EE9F0A2693536800E86C66 /* extension.swift in Sources */,
+				90ECCECF267D873100122F77 /* AddWordViewController.swift in Sources */,
+				9025F0462685D3A0001F18E4 /* AuthManager.swift in Sources */,
+				90ECCE7D267D4A5B00122F77 /* AppDelegate.swift in Sources */,
+				907F86152690C59800C34942 /* facebookViewController.swift in Sources */,
+				902FD7AC2685A5F70009C96E /* hangmanAddViewController.swift in Sources */,
+				90ECCED3267D88E200122F77 /* Wordcards+CoreDataProperties.swift in Sources */,
+				902FD7A6268585020009C96E /* winViewController.swift in Sources */,
+				90ECCECA267D84F000122F77 /* ChooseModeViewController.swift in Sources */,
+				90ECCECD267D86B400122F77 /* FlaskCardViewController.swift in Sources */,
+				905B2A1A269549BB000EA198 /* RecoveryViewController.swift in Sources */,
+				902FD7A82685877D0009C96E /* looseViewController.swift in Sources */,
+				9025F04D26867656001F18E4 /* RecoveryViewController.swift in Sources */,
+				90ECCE7F267D4A5B00122F77 /* SceneDelegate.swift in Sources */,
+				909403742691AA1400A7ADE8 /* googleViewController.swift in Sources */,
+				90ECCED2267D88E200122F77 /* Wordcards+CoreDataClass.swift in Sources */,
+				9025F04B2685D9AE001F18E4 /* signUpViewController.swift in Sources */,
+				902FD7AA268588590009C96E /* explanViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ECCE8E267D4A5B00122F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ECCE97267D4A5B00122F77 /* Dooro_LearinngTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90ECCE99267D4A5B00122F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90ECCEA2267D4A5B00122F77 /* Dooro_LearinngUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90ECCE94267D4A5B00122F77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90ECCE78267D4A5B00122F77 /* Dooro Learinng */;
+			targetProxy = 90ECCE93267D4A5B00122F77 /* PBXContainerItemProxy */;
+		};
+		90ECCE9F267D4A5B00122F77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90ECCE78267D4A5B00122F77 /* Dooro Learinng */;
+			targetProxy = 90ECCE9E267D4A5B00122F77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90ECCE82267D4A5B00122F77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90ECCE83267D4A5B00122F77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90ECCEA4267D4A5B00122F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90ECCEA5267D4A5B00122F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90ECCEA7267D4A5B00122F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D76AFF0F27422F948F5EEF5 /* Pods-Dooro Learinng.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CLJYP36K9C;
+				INFOPLIST_FILE = "Dooro Learinng/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DooroBear.Dooro-Learning.Dooro-Learinng";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90ECCEA8267D4A5B00122F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBE4857DD7F72B336A6F660 /* Pods-Dooro Learinng.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CLJYP36K9C;
+				INFOPLIST_FILE = "Dooro Learinng/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DooroBear.Dooro-Learning.Dooro-Learinng";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90ECCEAA267D4A5B00122F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394631FCD4066076FA1670A1 /* Pods-Dooro LearinngTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CLJYP36K9C;
+				INFOPLIST_FILE = "Dooro LearinngTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DooroBear.Dooro-Learning.Dooro-LearinngTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dooro Learinng.app/Dooro Learinng";
+			};
+			name = Debug;
+		};
+		90ECCEAB267D4A5B00122F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 980D2674AD064C8177E1336B /* Pods-Dooro LearinngTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CLJYP36K9C;
+				INFOPLIST_FILE = "Dooro LearinngTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DooroBear.Dooro-Learning.Dooro-LearinngTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dooro Learinng.app/Dooro Learinng";
+			};
+			name = Release;
+		};
+		90ECCEAD267D4A5B00122F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E3EDEA787367059E96C16C /* Pods-Dooro Learinng-Dooro LearinngUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CLJYP36K9C;
+				INFOPLIST_FILE = "Dooro LearinngUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DooroBear.Dooro-Learning.Dooro-LearinngUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dooro Learinng";
+			};
+			name = Debug;
+		};
+		90ECCEAE267D4A5B00122F77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58B08C38A15152BC3EC064E /* Pods-Dooro Learinng-Dooro LearinngUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CLJYP36K9C;
+				INFOPLIST_FILE = "Dooro LearinngUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DooroBear.Dooro-Learning.Dooro-LearinngUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dooro Learinng";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90ECCE74267D4A5A00122F77 /* Build configuration list for PBXProject "Dooro Learinng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ECCEA4267D4A5B00122F77 /* Debug */,
+				90ECCEA5267D4A5B00122F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90ECCEA6267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro Learinng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ECCEA7267D4A5B00122F77 /* Debug */,
+				90ECCEA8267D4A5B00122F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90ECCEA9267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro LearinngTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ECCEAA267D4A5B00122F77 /* Debug */,
+				90ECCEAB267D4A5B00122F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90ECCEAC267D4A5B00122F77 /* Build configuration list for PBXNativeTarget "Dooro LearinngUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ECCEAD267D4A5B00122F77 /* Debug */,
+				90ECCEAE267D4A5B00122F77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90ECCE85267D4A5B00122F77 /* Dooro_Learinng.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90ECCE86267D4A5B00122F77 /* Dooro_Learinng.xcdatamodel */,
+			);
+			currentVersion = 90ECCE86267D4A5B00122F77 /* Dooro_Learinng.xcdatamodel */;
+			path = Dooro_Learinng.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 90ECCE71267D4A5A00122F77 /* Project object */;
+}

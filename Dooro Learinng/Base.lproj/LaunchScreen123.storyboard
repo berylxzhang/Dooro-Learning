@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LaunchScreen-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController storyboardIdentifier="LaunchScreen" title="LaunchScreen" wantsFullScreenLayout="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="DooroLearning-1" translatesAutoresizingMaskIntoConstraints="NO" id="cRh-d6-Hng">
+                                <rect key="frame" x="-588" y="0.0" width="1590" height="896"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cRh-d6-Hng" secondAttribute="height" multiplier="1024:577" id="FIh-gF-KTQ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="welcome" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" highlighted="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lm6-1i-bcZ">
+                                <rect key="frame" x="31" y="321" width="352" height="62.5"/>
+                                <color key="backgroundColor" red="0.77474088649226092" green="1" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="49"/>
+                                <color key="textColor" systemColor="systemYellowColor"/>
+                                <color key="highlightedColor" systemColor="systemYellowColor"/>
+                                <color key="shadowColor" systemColor="labelColor"/>
+                                <size key="shadowOffset" width="0.0" height="-3"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="60"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="Dooro Learning" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" highlighted="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6a-jf-XO9">
+                                <rect key="frame" x="31" y="258" width="352" height="63"/>
+                                <color key="backgroundColor" red="0.77474088649999995" green="1" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="49"/>
+                                <color key="textColor" systemColor="systemYellowColor"/>
+                                <color key="highlightedColor" systemColor="systemOrangeColor"/>
+                                <color key="shadowColor" systemColor="labelColor"/>
+                                <size key="shadowOffset" width="0.0" height="-3"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="60"/>
+                                </variation>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="happybearintro" translatesAutoresizingMaskIntoConstraints="NO" id="bw2-yX-sEf">
+                                <rect key="frame" x="108" y="54" width="198" height="179"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bw2-yX-sEf" secondAttribute="height" multiplier="183:166" id="z4v-Lw-lUA"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lm6-1i-bcZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6ku-7r-g65"/>
+                            <constraint firstItem="G6a-jf-XO9" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.07" id="A6k-K2-ir2"/>
+                            <constraint firstItem="bw2-yX-sEf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AJR-Ql-Z1s"/>
+                            <constraint firstItem="G6a-jf-XO9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="D6H-KY-2c5"/>
+                            <constraint firstItem="G6a-jf-XO9" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.85" id="DXX-bJ-ToQ"/>
+                            <constraint firstItem="lm6-1i-bcZ" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.85" id="Dw3-72-2eJ">
+                                <variation key="heightClass=regular-widthClass=regular" constant="0.0"/>
+                            </constraint>
+                            <constraint firstAttribute="bottom" secondItem="cRh-d6-Hng" secondAttribute="bottom" id="IlA-PO-0BR"/>
+                            <constraint firstItem="cRh-d6-Hng" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VmN-qK-W9S"/>
+                            <constraint firstItem="bw2-yX-sEf" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.2" id="bCg-J7-Kjl"/>
+                            <constraint firstItem="cRh-d6-Hng" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="heY-JW-5mK"/>
+                            <constraint firstItem="G6a-jf-XO9" firstAttribute="top" secondItem="bw2-yX-sEf" secondAttribute="bottom" constant="25" id="riL-Zl-FJQ">
+                                <variation key="heightClass=regular-widthClass=regular" constant="25"/>
+                            </constraint>
+                            <constraint firstItem="lm6-1i-bcZ" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.07" id="uOP-AI-HIP"/>
+                            <constraint firstItem="bw2-yX-sEf" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="10" id="ul4-md-hAJ">
+                                <variation key="heightClass=regular-widthClass=regular" constant="70"/>
+                            </constraint>
+                            <constraint firstItem="lm6-1i-bcZ" firstAttribute="top" secondItem="G6a-jf-XO9" secondAttribute="bottom" id="w8A-aK-NI4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.1484375" y="374.67057101024886"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DooroLearning-1" width="2002" height="1125"/>
+        <image name="happybearintro" width="2108" height="2177"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

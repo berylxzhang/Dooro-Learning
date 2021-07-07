@@ -1,0 +1,156 @@
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "05Y-87-IeT"; */
+"05Y-87-IeT.normalTitle" = "Cancel";
+
+/* Class = "UITextField"; placeholder = "Search Word"; ObjectID = "2li-0M-tnd"; */
+"2li-0M-tnd.placeholder" = "Search Word";
+
+/* Class = "UITextField"; placeholder = "word (lower case)"; ObjectID = "7qc-tV-MTg"; */
+"7qc-tV-MTg.placeholder" = "word (lower case)";
+
+/* Class = "UISegmentedControl"; ALz-7j-eBp.segmentTitles[0] = "Guess First"; ObjectID = "ALz-7j-eBp"; */
+"ALz-7j-eBp.segmentTitles[0]" = "Guess First";
+
+/* Class = "UISegmentedControl"; ALz-7j-eBp.segmentTitles[1] = "Explanation First"; ObjectID = "ALz-7j-eBp"; */
+"ALz-7j-eBp.segmentTitles[1]" = "Explanation First";
+
+/* Class = "UITextField"; placeholder = "Hint"; ObjectID = "ByI-ri-Cgi"; */
+"ByI-ri-Cgi.placeholder" = "Hint";
+
+/* Class = "UIButton"; normalTitle = "Exit"; ObjectID = "CDv-C2-9Wf"; */
+"CDv-C2-9Wf.normalTitle" = "Exit";
+
+/* Class = "UILabel"; text = "Please enter your recovery email                     "; ObjectID = "Crc-Il-mcd"; */
+"Crc-Il-mcd.text" = "Please enter your recovery email                     ";
+
+/* Class = "UIButton"; normalTitle = " Explanation"; ObjectID = "DEm-hU-bKi"; */
+"DEm-hU-bKi.normalTitle" = " Explanation";
+
+/* Class = "UIButton"; normalTitle = "Flashcards"; ObjectID = "EuK-zi-dZK"; */
+"EuK-zi-dZK.normalTitle" = "Flashcards";
+
+/* Class = "UITextField"; placeholder = "word (lower case)"; ObjectID = "HMx-iK-1iB"; */
+"HMx-iK-1iB.placeholder" = "word (lower case)";
+
+/* Class = "UIButton"; normalTitle = "Hangman"; ObjectID = "HO2-UE-p0y"; */
+"HO2-UE-p0y.normalTitle" = "Hangman";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "Hcf-dS-NKg"; */
+"Hcf-dS-NKg.normalTitle" = "Confirm";
+
+/* Class = "UILabel"; text = "You LOOSE!"; ObjectID = "HhP-mv-iJe"; */
+"HhP-mv-iJe.text" = "You LOOSE!";
+
+/* Class = "UITextField"; placeholder = "word (lower case)"; ObjectID = "Hnp-PO-lrC"; */
+"Hnp-PO-lrC.placeholder" = "word (lower case)";
+
+/* Class = "UITextField"; placeholder = "    Password Confirmation"; ObjectID = "IFl-Gf-X6O"; */
+"IFl-Gf-X6O.placeholder" = "    Password Confirmation";
+
+/* Class = "UIButton"; normalTitle = "New Word"; ObjectID = "Jbi-y0-4Wi"; */
+"Jbi-y0-4Wi.normalTitle" = "New Word";
+
+/* Class = "UIButton"; normalTitle = "New Game"; ObjectID = "JyR-56-k8e"; */
+"JyR-56-k8e.normalTitle" = "New Game";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "LbK-V3-yeJ"; */
+"LbK-V3-yeJ.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Exit"; ObjectID = "N1F-Td-KtJ"; */
+"N1F-Td-KtJ.normalTitle" = "Exit";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "Ngn-We-csG"; */
+"Ngn-We-csG.normalTitle" = "Sign Up";
+
+/* Class = "UILabel"; text = "You WIN!"; ObjectID = "OaU-zN-tJq"; */
+"OaU-zN-tJq.text" = "You WIN!";
+
+/* Class = "UITextField"; placeholder = "Explanation"; ObjectID = "PbZ-la-gCM"; */
+"PbZ-la-gCM.placeholder" = "Explanation";
+
+/* Class = "UIButton"; normalTitle = "Add Word"; ObjectID = "Qzf-fP-EyR"; */
+"Qzf-fP-EyR.normalTitle" = "Add Word";
+
+/* Class = "UIButton"; normalTitle = "Exit"; ObjectID = "RfE-s1-4lE"; */
+"RfE-s1-4lE.normalTitle" = "Exit";
+
+/* Class = "UIButton"; normalTitle = "New Word"; ObjectID = "Swx-xq-FyV"; */
+"Swx-xq-FyV.normalTitle" = "New Word";
+
+/* Class = "UIButton"; normalTitle = " Explanation"; ObjectID = "UAY-D3-mny"; */
+"UAY-D3-mny.normalTitle" = " Explanation";
+
+/* Class = "UILabel"; text = "Letter Bank"; ObjectID = "Wlh-HT-Y9r"; */
+"Wlh-HT-Y9r.text" = "Letter Bank";
+
+/* Class = "UILabel"; text = "Remaining Chances"; ObjectID = "XF1-ST-wgg"; */
+"XF1-ST-wgg.text" = "Remaining Chances";
+
+/* Class = "UITextField"; placeholder = "recovery email"; ObjectID = "YGa-ol-Y8t"; */
+"YGa-ol-Y8t.placeholder" = "recovery email";
+
+/* Class = "UIButton"; normalTitle = "New Word"; ObjectID = "ZRM-l6-pU5"; */
+"ZRM-l6-pU5.normalTitle" = "New Word";
+
+/* Class = "UILabel"; text = "Hint"; ObjectID = "aBW-Lf-WqH"; */
+"aBW-Lf-WqH.text" = "Hint";
+
+/* Class = "UILabel"; text = "Hint"; ObjectID = "aeh-kI-fhG"; */
+"aeh-kI-fhG.text" = "Hint";
+
+/* Class = "UIButton"; normalTitle = "Forgot Your Password"; ObjectID = "an6-V2-ITt"; */
+"an6-V2-ITt.normalTitle" = "Forgot Your Password";
+
+/* Class = "UIButton"; normalTitle = "New Word"; ObjectID = "b1R-3M-hPw"; */
+"b1R-3M-hPw.normalTitle" = "New Word";
+
+/* Class = "UIButton"; normalTitle = "Delete Word"; ObjectID = "b1n-Bl-GNf"; */
+"b1n-Bl-GNf.normalTitle" = "Delete Word";
+
+/* Class = "UIButton"; normalTitle = "Exit"; ObjectID = "fia-nw-hgy"; */
+"fia-nw-hgy.normalTitle" = "Exit";
+
+/* Class = "UILabel"; text = "Word to Guess"; ObjectID = "gHa-Wi-fQi"; */
+"gHa-Wi-fQi.text" = "Word to Guess";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "gR9-r7-YKU"; */
+"gR9-r7-YKU.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "     Password"; ObjectID = "hBL-jK-aJK"; */
+"hBL-jK-aJK.placeholder" = "     Password";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "hb0-vw-Qzg"; */
+"hb0-vw-Qzg.normalTitle" = "Cancel";
+
+/* Class = "UITextField"; placeholder = "Explanation"; ObjectID = "kfB-0l-ny2"; */
+"kfB-0l-ny2.placeholder" = "Explanation";
+
+/* Class = "UIButton"; normalTitle = "Login In"; ObjectID = "mz2-7T-6wu"; */
+"mz2-7T-6wu.normalTitle" = "Login In";
+
+/* Class = "UILabel"; text = "Choose Mode"; ObjectID = "njC-Ij-A6t"; */
+"njC-Ij-A6t.text" = "Choose Mode";
+
+/* Class = "UIButton"; normalTitle = "Save Word"; ObjectID = "pB7-h4-Yod"; */
+"pB7-h4-Yod.normalTitle" = "Save Word";
+
+/* Class = "UILabel"; text = "r"; ObjectID = "pbM-Ux-7mw"; */
+"pbM-Ux-7mw.text" = "r";
+
+/* Class = "UIButton"; normalTitle = "Save Word"; ObjectID = "tUi-Ya-qwV"; */
+"tUi-Ya-qwV.normalTitle" = "Save Word";
+
+/* Class = "UITextField"; placeholder = "Hint"; ObjectID = "uJE-ko-nyb"; */
+"uJE-ko-nyb.placeholder" = "Hint";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "uSp-EJ-U3T"; */
+"uSp-EJ-U3T.normalTitle" = "Sign Up";
+
+/* Class = "UITextField"; placeholder = "      Password"; ObjectID = "xbv-PE-Hix"; */
+"xbv-PE-Hix.placeholder" = "      Password";
+
+/* Class = "UIButton"; normalTitle = "Delete Word"; ObjectID = "yP5-jV-2WM"; */
+"yP5-jV-2WM.normalTitle" = "Delete Word";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "zXc-k6-J71"; */
+"zXc-k6-J71.placeholder" = "Email";

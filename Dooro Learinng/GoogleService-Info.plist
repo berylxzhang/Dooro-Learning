@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>634299814705-u21fev20sj1b1t89f718ge7kbpr260md.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.634299814705-u21fev20sj1b1t89f718ge7kbpr260md</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBcSxWvkdY1W3CuDe2ExbeFs7swJu3piSs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>634299814705</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.DooroBear.Dooro-Learning.Dooro-Learinng</string>
+	<key>PROJECT_ID</key>
+	<string>doorolearning</string>
+	<key>STORAGE_BUCKET</key>
+	<string>doorolearning.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:634299814705:ios:2f2dd66903d0f97d935610</string>
+</dict>
+</plist>
