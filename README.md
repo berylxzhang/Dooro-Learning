@@ -164,7 +164,10 @@
 
 
 
-## Requirements
+## 3. Requirements
+### IOS 9.0
+### Xcode 9.3
 ## Installation
 ## Contribute
 ## License
+This application is released under MIT (see LICENSE). Some of the used libraries are released under different licenses.
