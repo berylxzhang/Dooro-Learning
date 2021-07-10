@@ -170,4 +170,5 @@
 ## Installation
 ## Contribute
 ## License
-This application is released under MIT (see LICENSE). Some of the used libraries are released under different licenses.
+
+This application is released under MIT (see [LICENSE](https://github.com/berylxzhang/Dooro-Learning/blob/main/LICENSE)). Some of the used libraries are released under different licenses.
