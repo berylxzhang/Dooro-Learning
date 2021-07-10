@@ -20,7 +20,7 @@
 fig.1 Dooro Learning APP Icon
 </p>
 
-Dooro Learning is an IOS app developed for love of Dooro Bear and fun of programming. In this project, hangman game from software development course is incorporated with flashcard function for better learning objective. Multiple login method like email/password, facebook login and google login are employed here to realize independent learning purpose. Firebase is utlized to store and authenticate multiple users' login information. Core data is used to persist or cache data on a single device, or sync data to multiple devices with CloudKit.
+Dooro Learning is an IOS app developed for love of Dooro Bear and fun of programming. In this project, hangman game from software development course is incorporated with flashcard function for better learning objective. Multiple login method like email/password, facebook login and google login are employed here to realize independent learning purpose. Firebase is utilized to store and authenticate multiple users' login information. Core data is used to persist or cache data on a single device, or sync data to multiple devices with CloudKit.
 
 ## 2. Features
 - Sign up a new account with email address and self-defined password 
@@ -45,7 +45,7 @@ Dooro Learning is an IOS app developed for love of Dooro Bear and fun of program
 ![forget your password](https://user-images.githubusercontent.com/42850817/125171922-703a5f00-e17c-11eb-82e2-cc7accfe6d0c.gif)
 
 <p align="center">
-   Gif.3 Retreive an account when password is forgotten
+   Gif.3 Retrieve an account when password is forgotten
 </p>
 
 ![password reset](https://user-images.githubusercontent.com/42850817/125172029-e8a12000-e17c-11eb-9b93-f21f2a22c600.gif)
@@ -54,7 +54,7 @@ Dooro Learning is an IOS app developed for love of Dooro Bear and fun of program
    Gif.4 Reset account password by following the instructions in the link
 </p>
 
-- Log in using email and password which have been registered, and vailidate whether the account is exisiting and whether the password matches the email
+- Log in using email and password which have been registered, and validate whether the account is existing and whether the password matches the email
 
 ![sign in using password and email address](https://user-images.githubusercontent.com/42850817/125170529-07031d80-e175-11eb-9a3a-1d59be7d8c24.gif)
 
@@ -299,7 +299,7 @@ Dooro Learning app is a free and open source project developed by volunteers. An
 This application is released under MIT (see [LICENSE](https://github.com/berylxzhang/Dooro-Learning/blob/main/LICENSE)). Some of the used libraries are released under different licenses.
 
 
-[swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
+[swift-image]:https://img.shields.io/badge/swift-5.4.2-orange.svg
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
