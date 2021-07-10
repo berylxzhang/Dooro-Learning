@@ -1,11 +1,18 @@
 
 
+[![Swift Version][swift-image]][swift-url]
+[![Build Status][travis-image]][travis-url]
+[![License][license-image]][license-url]
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/EZSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/LFAlertController.svg)  
+[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # Dooro Learning
 
 ## 1. Descriptions 
 
-Dooro Learning is an IOS app developed for love of Dooro Bear and fun of programming. In this project, hangman game from software development course is incorporated with flashcard function for better learning objective. Multiple login method like email/password, facebook login and google login are employed here for realize independent learning purpose. Firebase is utlized to manage multiple user's login information. 
+Dooro Learning is an IOS app developed for love of Dooro Bear and fun of programming. In this project, hangman game from software development course is incorporated with flashcard function for better learning objective. Multiple login method like email/password, facebook login and google login are employed here to realize independent learning purpose. Firebase is utlized to manage multiple users' login information. 
 
 ## 2. Features
 - Sign up a new account with email address and self-defined password 
@@ -138,13 +145,13 @@ Dooro Learning is an IOS app developed for love of Dooro Bear and fun of program
 ![hangman win](https://user-images.githubusercontent.com/42850817/125175491-2ceaeb00-e192-11eb-9700-f4e7dfe439a4.gif)
 
 <p align="center">
-   Gif.12 win the game and get redirected to hangman win view controller
+   Gif.13 win the game and get redirected to hangman win view controller
 </p>
 
 ![hangmanwin split 3](https://user-images.githubusercontent.com/42850817/125175538-7f2c0c00-e192-11eb-9a30-d08f5cd7ce46.gif)
 
 <p align="center">
-   Gif.13 avilable choices in hangman win view controller: new game, explanation, and exit
+   Gif.14 avilable choices in hangman win view controller: new game, explanation, and exit
 </p>
 
   - when you loose you will be automatically redirected to the loose view controller. After that you will have three choices, they are starting a new game, exiting the game and seeing the explanations.
@@ -152,18 +159,18 @@ Dooro Learning is an IOS app developed for love of Dooro Bear and fun of program
 ![hangman loose explanation](https://user-images.githubusercontent.com/42850817/125174972-be585e00-e18e-11eb-96cd-2cd3ac5ceaa9.gif)
 
 <p align="center">
-   Gif.14 loose the game and get redirected to hangman loose view controller
+   Gif.15 loose the game and get redirected to hangman loose view controller
 </p>
 
 ![loose split three](https://user-images.githubusercontent.com/42850817/125174999-f364b080-e18e-11eb-9ba2-62a7ee70215d.gif)
 
 <p align="center">
-   Gif.15 avilable choices in hangman loose view controller: new game, explanation, and exit
+   Gif.16 avilable choices in hangman loose view controller: new game, explanation, and exit
 </p>
 
   - In the explanation field, you have four choices which are deleting the word, adding a new word, starting a game, returning back to the choose mode view controller.
 
-
+- The app can work perfectly on multiple IOS devices 
 
 
 ## 3. Requirements
@@ -182,8 +189,50 @@ An Apple Developer Program account is required to run any sample app on a physic
 - Unless otherwise instructed, samples can be run by following these steps:
 
   1. From the project directory, run `pod install`.
-  2. Open the corresponding .xcworkspace file.
-  3. There are README.md files in several of the samples that provide additional setup steps that are specific to those examples.
+  
+    ```
+      Update all pods
+      Updating local specs repositories
+      Analyzing dependencies
+      Downloading dependencies
+      Installing AppAuth (1.4.0)
+      Installing Device (3.2.1)
+      Installing DeviceLayout (0.5.0)
+      Installing FBSDKCoreKit (11.0.1)
+      Installing FBSDKCoreKit_Basics (11.0.1)
+      Installing FBSDKLoginKit (11.0.1)
+      Installing FBSDKShareKit (11.0.1)
+      Installing Firebase (6.34.0)
+      Installing FirebaseAnalytics (6.9.0)
+      Installing FirebaseAuth (6.9.2)
+      Installing FirebaseCore (6.10.4)
+      Installing FirebaseCoreDiagnostics (1.7.0)
+      Installing FirebaseDatabase (6.6.0)
+      Installing FirebaseInstallations (1.7.0)
+      Installing GTMAppAuth (1.2.2)
+      Installing GTMSessionFetcher (1.6.1)
+      Installing GoogleAppMeasurement (6.9.0)
+      Installing GoogleDataTransport (7.5.1)
+      Installing GoogleSignIn (5.0.2)
+      Installing GoogleUtilities (6.7.2)
+      Installing KMPlaceholderTextView (1.4.0)
+      Installing Loaf (0.7.0)
+      Installing MBProgressHUD (1.1.0)
+      Installing PaddingLabel (1.2)
+      Installing PromisesObjC (1.2.12)
+      Installing SDWebImage (5.11.1)
+      Installing TinyConstraints (4.0.1)
+      Installing leveldb-library (1.22.1)
+      Installing nanopb (1.30906.0)
+      Generating Pods project
+      Integrating client project
+
+      [!] Please close any current Xcode sessions and use `Dooro Learning.xcworkspace` for this project from now on.
+      Pod installation complete! There are 14 dependencies from the Podfile and 29 total pods installed.
+    ```
+
+   2. Open the corresponding .xcworkspace file.
+   3. There are README.md files in several of the samples that provide additional setup steps that are specific to those examples.
   - Note: If you intend to use these samples offline, be sure to run Cocoapods before going offline in order to download the required dependencies.
 
 
@@ -197,3 +246,13 @@ Dooro Learning app is a free and open source project developed by volunteers. An
 ## 6. License
 
 This application is released under MIT (see [LICENSE](https://github.com/berylxzhang/Dooro-Learning/blob/main/LICENSE)). Some of the used libraries are released under different licenses.
+
+
+[swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
+[swift-url]: https://swift.org/
+[license-image]: https://img.shields.io/badge/License-MIT-blue.svg
+[license-url]: LICENSE
+[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+[codebeat-image]: https://codebeat.co/badges/c19b47ea-2f9d-45df-8458-b2d952fe9dad
+[codebeat-url]: https://codebeat.co/projects/github-com-vsouza-awesomeios-com
