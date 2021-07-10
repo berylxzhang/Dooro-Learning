@@ -20,7 +20,7 @@
 fig.1 Dooro Learning APP Icon
 </p>
 
-Dooro Learning is an IOS app developed for love of Dooro Bear and fun of programming. In this project, hangman game from software development course is incorporated with flashcard function for better learning objective. Multiple login method like email/password, facebook login and google login are employed here to realize independent learning purpose. Firebase is utlized to manage multiple users' login information. 
+Dooro Learning is an IOS app developed for love of Dooro Bear and fun of programming. In this project, hangman game from software development course is incorporated with flashcard function for better learning objective. Multiple login method like email/password, facebook login and google login are employed here to realize independent learning purpose. Firebase is utlized to store and authenticate multiple users' login information. Core data is used to persist or cache data on a single device, or sync data to multiple devices with CloudKit.
 
 ## 2. Features
 - Sign up a new account with email address and self-defined password 
