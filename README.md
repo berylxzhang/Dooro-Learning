@@ -167,8 +167,27 @@
 ## 3. Requirements
 - IOS 9.0
 - Xcode 9.3
+- CocoaPods 1.10.1
+
+An Apple Developer Program account is required to run any sample app on a physical device. In order to provision your device, edit the sample app bundle identifier to make it unique to your organization.
+
 ## Installation
+
+- To ensure you are using the latest releases of the Dooro Learning software components, update your Podspec repository before building any of the sample applications by running the following on the command line:
+
+require 'redcarpet'
+markdown = Redcarpet.new("pod repo update")
+puts markdown.to_html
+
+
+
 ## Contribute
+
+Dooro Learning app is a free and open source project developed by volunteers. Any contributions are welcome. Here are a few ways you can help:
+
+- [Report bugs and make suggestions.](https://github.com/berylxzhang/Dooro-Learning/issues)
+- Write some code. Please follow the code style used in the project to make a review process faster.
+
 ## License
 
 This application is released under MIT (see [LICENSE](https://github.com/berylxzhang/Dooro-Learning/blob/main/LICENSE)). Some of the used libraries are released under different licenses.
