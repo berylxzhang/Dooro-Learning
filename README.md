@@ -165,8 +165,8 @@
 
 
 ## 3. Requirements
-### IOS 9.0
-### Xcode 9.3
+- IOS 9.0
+- Xcode 9.3
 ## Installation
 ## Contribute
 ## License
