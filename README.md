@@ -39,12 +39,20 @@ https://user-images.githubusercontent.com/42850817/125163287-1cb31b80-e152-11eb-
 
 https://user-images.githubusercontent.com/42850817/125163303-2dfc2800-e152-11eb-8121-c2c58b9050ef.mp4
 
-10. managing each user's login information in firebase, assigning a unique id to each user, preset 15 flashcards for each user, using core data database to manege each user's information
-11. flashcard function
-12. flashcard add card function
-13. hangman function 
-14. hangman function add card
-15. 
+10. flashcard function display swipe search delete
+
+https://user-images.githubusercontent.com/42850817/125166484-6c4d1380-e161-11eb-89be-271579a77405.mp4
+
+11. managing each user's login information in firebase, assigning a unique id to each user, preset 15 flashcards for each user, using core data database to manege each user's information
+
+12. flashcard add card function place holder
+
+https://user-images.githubusercontent.com/42850817/125167169-cdc2b180-e164-11eb-876b-0754e3eea523.mp4
+
+14. hangman function win to explanation new game exit
+15. hangman function loose to explanation new game exit
+16. final card add card
+17. scroller
 
 
 
