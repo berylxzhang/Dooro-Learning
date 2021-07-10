@@ -5,6 +5,8 @@
 
 ## 1. Descriptions 
 
+Dooro Learning is an IOS app developed for love of Dooro Bear and fun of programming. In this project, hangman game from software development course is incorporated with flashcard function for better learning objective. Multiple login method like email/password, facebook login and google login are employed here for realize independent learning purpose. Firebase is utlized to manage multiple user's login information. 
+
 ## 2. Features
 - Sign up a new account with email address and self-defined password 
 
@@ -171,23 +173,27 @@
 
 An Apple Developer Program account is required to run any sample app on a physical device. In order to provision your device, edit the sample app bundle identifier to make it unique to your organization.
 
-## Installation
+## 4. Installation
 
 - To ensure you are using the latest releases of the Dooro Learning software components, update your Podspec repository before building any of the sample applications by running the following on the command line:
 
-require 'redcarpet'
-markdown = Redcarpet.new("pod repo update")
-puts markdown.to_html
+`pod repo update`
+
+- Unless otherwise instructed, samples can be run by following these steps:
+
+  1. From the project directory, run `pod install`.
+  2. Open the corresponding .xcworkspace file.
+  3. There are README.md files in several of the samples that provide additional setup steps that are specific to those examples.
+  - Note: If you intend to use these samples offline, be sure to run Cocoapods before going offline in order to download the required dependencies.
 
 
-
-## Contribute
+## 5. Contribute
 
 Dooro Learning app is a free and open source project developed by volunteers. Any contributions are welcome. Here are a few ways you can help:
 
 - [Report bugs and make suggestions.](https://github.com/berylxzhang/Dooro-Learning/issues)
 - Write some code. Please follow the code style used in the project to make a review process faster.
 
-## License
+## 6. License
 
 This application is released under MIT (see [LICENSE](https://github.com/berylxzhang/Dooro-Learning/blob/main/LICENSE)). Some of the used libraries are released under different licenses.
