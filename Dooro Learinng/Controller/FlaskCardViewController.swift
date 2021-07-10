@@ -148,10 +148,14 @@ class FlaskCardViewController: UIViewController {
             currentCard = nil
             return
         }
+        
         let randomIndex = Int(arc4random_uniform(UInt32(listOfCards.count)))
         currentCard = listOfCards[randomIndex]
+        
         if let displayCard = currentCard{
+            
             guard let word = wordView.text else{return }
+            
             if word ==  ""{
                 displayHintorExplanation(cardToDisplay: displayCard)
                 
@@ -240,6 +244,9 @@ class FlaskCardViewController: UIViewController {
             do {
                 try manageObjContext.save()
                 print("delete card")
+                
+                currentCard = nil
+                wordView.text = ""
                 fetchCards()
                 displayCard()
             }catch{
