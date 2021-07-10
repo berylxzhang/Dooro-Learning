@@ -12,6 +12,14 @@
 
 ## 1. Descriptions 
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/42850817/125177194-69711380-e19f-11eb-9aee-5e19ab9f00ca.jpeg" width=50% height=50%>
+</p>
+
+<p align="center">
+fig.1 Dooro Learning APP Icon
+</p>
+
 Dooro Learning is an IOS app developed for love of Dooro Bear and fun of programming. In this project, hangman game from software development course is incorporated with flashcard function for better learning objective. Multiple login method like email/password, facebook login and google login are employed here to realize independent learning purpose. Firebase is utlized to manage multiple users' login information. 
 
 ## 2. Features
@@ -131,10 +139,10 @@ Dooro Learning is an IOS app developed for love of Dooro Bear and fun of program
   
     - when there is no card to play with, you will be automatically redirected to the adding mode
     
-![hangman final card](https://user-images.githubusercontent.com/42850817/125175721-80aa0400-e193-11eb-9df8-fa0be48c22a1.gif)
-<p align="center">
-   Gif.12 if there is only one card left, hangman will redirect to add new card mode
-</p>
+      ![hangman final card](https://user-images.githubusercontent.com/42850817/125175721-80aa0400-e193-11eb-9df8-fa0be48c22a1.gif)
+      <p align="center">
+         Gif.12 if there is only one card left, hangman will redirect to add new card mode
+      </p>
     
   - you only have 5 chances to enter a wrong letter
   - letters you have already entered will be saved in the letter bank label
@@ -142,35 +150,72 @@ Dooro Learning is an IOS app developed for love of Dooro Bear and fun of program
   - when you are entering letters, the keyboard will be enabled. Otherwise, the keyboard will be hidden.
   - when you win you will be automatically redirected to the win view controller. After that you will have three choices, they are starting a new game, exiting the game and seeing the explanations.
 
-![hangman win](https://user-images.githubusercontent.com/42850817/125175491-2ceaeb00-e192-11eb-9700-f4e7dfe439a4.gif)
+    ![hangman win](https://user-images.githubusercontent.com/42850817/125175491-2ceaeb00-e192-11eb-9700-f4e7dfe439a4.gif)
 
-<p align="center">
-   Gif.13 win the game and get redirected to hangman win view controller
-</p>
+    <p align="center">
+       Gif.13 win the game and get redirected to hangman win view controller
+    </p>
 
-![hangmanwin split 3](https://user-images.githubusercontent.com/42850817/125175538-7f2c0c00-e192-11eb-9a30-d08f5cd7ce46.gif)
+    ![hangmanwin split 3](https://user-images.githubusercontent.com/42850817/125175538-7f2c0c00-e192-11eb-9a30-d08f5cd7ce46.gif)
 
-<p align="center">
-   Gif.14 avilable choices in hangman win view controller: new game, explanation, and exit
-</p>
+    <p align="center">
+       Gif.14 avilable choices in hangman win view controller: new game, explanation, and exit
+    </p>
 
   - when you loose you will be automatically redirected to the loose view controller. After that you will have three choices, they are starting a new game, exiting the game and seeing the explanations.
 
-![hangman loose explanation](https://user-images.githubusercontent.com/42850817/125174972-be585e00-e18e-11eb-96cd-2cd3ac5ceaa9.gif)
+    ![hangman loose explanation](https://user-images.githubusercontent.com/42850817/125174972-be585e00-e18e-11eb-96cd-2cd3ac5ceaa9.gif)
+
+    <p align="center">
+       Gif.15 loose the game and get redirected to hangman loose view controller
+    </p>
+
+    ![loose split three](https://user-images.githubusercontent.com/42850817/125174999-f364b080-e18e-11eb-9ba2-62a7ee70215d.gif)
+
+    <p align="center">
+       Gif.16 avilable choices in hangman loose view controller: new game, explanation, and exit
+    </p>
+
+   - In the explanation field, you have four choices which are deleting the word, adding a new word, starting a game, returning back to the choose mode view controller.
+
+
+- The app can work perfectly on multiple IOS devices by setting the constraints reasonably
+
+![4291625953681_ pic_hd](https://user-images.githubusercontent.com/42850817/125177094-c5876800-e19e-11eb-86a9-131febf6a767.jpg)
 
 <p align="center">
-   Gif.15 loose the game and get redirected to hangman loose view controller
+   fig.2 launch screen display on different IOS devices
 </p>
 
-![loose split three](https://user-images.githubusercontent.com/42850817/125174999-f364b080-e18e-11eb-9ba2-62a7ee70215d.gif)
+![4241625953390_ pic_hd](https://user-images.githubusercontent.com/42850817/125177107-e059dc80-e19e-11eb-9355-c2e0e1f8fece.jpg)
 
 <p align="center">
-   Gif.16 avilable choices in hangman loose view controller: new game, explanation, and exit
+   fig.3 log in screen display on different IOS devices
 </p>
 
-  - In the explanation field, you have four choices which are deleting the word, adding a new word, starting a game, returning back to the choose mode view controller.
+![4251625953418_ pic_hd](https://user-images.githubusercontent.com/42850817/125177109-e3ed6380-e19e-11eb-89c3-2d3c3a97d734.jpg)
 
-- The app can work perfectly on multiple IOS devices 
+<p align="center">
+   fig.4 choose mode screen display on different IOS devices
+</p>
+
+![4281625953514_ pic_hd](https://user-images.githubusercontent.com/42850817/125177119-e8b21780-e19e-11eb-8894-48719f1b91f3.jpg)
+
+<p align="center">
+   fig.5 flashcard screen display on different IOS devices
+</p>
+
+![4261625953436_ pic_hd](https://user-images.githubusercontent.com/42850817/125177122-eb147180-e19e-11eb-8112-92359140f7c3.jpg)
+
+<p align="center">
+   fig.6 hangman victory screen display on different IOS devices
+</p>
+
+![4271625953450_ pic_hd](https://user-images.githubusercontent.com/42850817/125177123-ecde3500-e19e-11eb-9f9b-c9d383b8f60f.jpg)
+
+<p align="center">
+   fig.7 hangman failure screen display on different IOS devices
+</p>
 
 
 ## 3. Requirements
@@ -182,9 +227,15 @@ An Apple Developer Program account is required to run any sample app on a physic
 
 ## 4. Installation
 
+- If you haven't already installed CocoaPods, you need to do that first.
+
+   Typically:
+
+   `sudo gem install cocoapods`
+
 - To ensure you are using the latest releases of the Dooro Learning software components, update your Podspec repository before building any of the sample applications by running the following on the command line:
 
-`pod repo update`
+   `pod repo update`
 
 - Unless otherwise instructed, samples can be run by following these steps:
 
