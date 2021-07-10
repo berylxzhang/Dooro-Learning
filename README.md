@@ -1,58 +1,170 @@
 
 
 
-# Dooro-Learning
+# Dooro Learning
 
-Features:
-1. sign up a new account with email address and self-defined password (visibility could be changed under click)
-2. validating password (1. format 2. align with first-time input)
+## 1. Descriptions 
 
-https://user-images.githubusercontent.com/42850817/125162638-af51bb80-e14e-11eb-9ca7-01a4ae167fe1.mp4
+## 2. Features
+- Sign up a new account with email address and self-defined password 
 
-3. prohibiting multiple signup using one email address
+  - changing the visibility of the password by clicking on the eye icon
+  - validating password format ( > 6 letters) and agreement with the previous input
+  - checking whether the entered email address has already been registered
+ 
+![signup and password validating](https://user-images.githubusercontent.com/42850817/125170343-4e3cde80-e174-11eb-8d12-32ecd1556533.gif)
+<p align="center">
+   Gif.1 sign up with a new email and validate the password
+</p>
 
-https://user-images.githubusercontent.com/42850817/125162640-b4af0600-e14e-11eb-8c84-98d20b278394.mp4
+![prohibiting signup with existing email](https://user-images.githubusercontent.com/42850817/125170568-2601af80-e175-11eb-8636-5f77c30f33db.gif)
 
-4. retrive account when password is forgotten and check whether the input account is still valid
+<p align="center">
+   Gif.2 prohibiting users from signing up again using the existing emaill address
+</p>
 
-https://user-images.githubusercontent.com/42850817/125162656-c85a6c80-e14e-11eb-9e80-46e74d5c29e2.mp4
+- Retreive an account when password is forgotten by sending a password reset link to the email address and check whether the input email is still valid
 
-https://user-images.githubusercontent.com/42850817/125162650-c395b880-e14e-11eb-9c59-413c67087e23.mp4
+![forget your password](https://user-images.githubusercontent.com/42850817/125171922-703a5f00-e17c-11eb-82e2-cc7accfe6d0c.gif)
 
-5. login in using email and password and vailidate whether the account is 
+<p align="center">
+   Gif.3 Retreive an account when password is forgotten
+</p>
 
-https://user-images.githubusercontent.com/42850817/125162665-d8724c00-e14e-11eb-9b6c-46b3d3fa4b3f.mp4
+![password reset](https://user-images.githubusercontent.com/42850817/125172029-e8a12000-e17c-11eb-9b93-f21f2a22c600.gif)
 
-6. log in and log out using facebook account, information like user's first name, profile photo are extrcted from the facebook profile, and displayed in the app
+<p align="center">
+   Gif.4 Reset account password by following the instructions in the link
+</p>
 
-https://user-images.githubusercontent.com/42850817/125162677-e3c57780-e14e-11eb-8015-8a43357f2d64.mp4
+- Log in using email and password which have been registered, and vailidate whether the account is exisiting and whether the password matches the email
 
-7. if facebook log in is not exited, auto log in with previous account
+![sign in using password and email address](https://user-images.githubusercontent.com/42850817/125170529-07031d80-e175-11eb-9a3a-1d59be7d8c24.gif)
 
-https://user-images.githubusercontent.com/42850817/125162841-b927ee80-e14f-11eb-9052-fabccf11b09a.mp4
+<p align="center">
+   Gif.5 Sign in using email address and password
+</p>
 
-8. log in and log out using google account, information like user's first name, profile photo are extrcted from the facebook profile, and displayed in the app
+- Log in and log out using facebook account
+  - grasp user information like first name, email address, profile photo, and login credential
+  - display user information in the welcome message in the app
+  - if facebook log in is not exited, auto log in with previous account information
 
-https://user-images.githubusercontent.com/42850817/125163287-1cb31b80-e152-11eb-94dc-1049ca4a4ba5.mp4
-
-9. if google logout is not exited, auto log in with previous google account
-
-https://user-images.githubusercontent.com/42850817/125163303-2dfc2800-e152-11eb-8121-c2c58b9050ef.mp4
-
-10. flashcard function display swipe search delete
-
-https://user-images.githubusercontent.com/42850817/125166484-6c4d1380-e161-11eb-89be-271579a77405.mp4
-
-11. managing each user's login information in firebase, assigning a unique id to each user, preset 15 flashcards for each user, using core data database to manege each user's information
-
-12. flashcard add card function place holder
-
-https://user-images.githubusercontent.com/42850817/125167169-cdc2b180-e164-11eb-876b-0754e3eea523.mp4
-
-14. hangman function win to explanation new game exit
-15. hangman function loose to explanation new game exit
-16. final card add card
-17. scroller
+![log in and log out with facebook](https://user-images.githubusercontent.com/42850817/125170179-47619c00-e173-11eb-9bc4-c910cd480e4d.gif)
 
 
+<p align="center">
+   Gif.6 Log in and log out using Facebook account
+</p>
 
+![autologin with facebook](https://user-images.githubusercontent.com/42850817/125170494-dde28d00-e174-11eb-8cb9-51156d310897.gif)
+
+<p align="center">
+   Gif.7 Autologin using Facebook when user didn't log out previously
+</p>
+
+- Log in and log out using Google account
+  - grasp user information like first name, email address, profile photo, and login credential
+  - display user information in the welcome message in the app
+  - if facebook log in is not exited, auto log in with previous account information
+
+![google login and logout](https://user-images.githubusercontent.com/42850817/125172802-3cae0380-e181-11eb-975f-f79a2d9cb69b.gif)
+
+<p align="center">
+   Gif.8 Log in and log out using Gmail account
+</p>
+
+![autologin with gmail](https://user-images.githubusercontent.com/42850817/125172994-556ae900-e182-11eb-9745-3309eb720ac3.gif)
+
+
+<p align="center">
+   Gif.9 Autologin using Gmail when user didn't log out previously
+</p>
+
+- Flashcard Mode has add, delete, search, guess, and explanation functionality
+  - add functionality allows you to add new card of interest with hint and explanation
+  - delete functionality allow you to delete the existing card which you don't want anymore
+  - search functionality will enables you to find the word of interest
+  
+    - placeholder is utilized here to help user know what the field is for
+  
+  - In the guess mode, the hint will be shown firstly. 
+    
+    - When you swipe to the right, you will get the hints of the new word. 
+    - When you swipe up, you will get the explanation of the word. 
+    - When you swipe down, you will get the hints of the word.
+    
+  - In the explanation mode, the hint will be shown firstly. 
+  
+    - When you swipe to the right, you will get the hints of the new word. 
+    - When you swipe up, you will get the explanation of the word. 
+    - When you swipe down, you will get the hints of the word.
+    
+![flashcard display swipe search delete functions](https://user-images.githubusercontent.com/42850817/125173057-a8dd3700-e182-11eb-91be-12edf1e65ea2.gif)
+
+<p align="center">
+   Gif.10 demonstration of flashcard functionality
+</p>
+
+- manage each user's login information using firebase and corresponding database using core data
+  - assign a unique id to each user
+  - preset 15 flashcards for each user
+  - the changes resulting from deletion and addition will be saved and reflected in the database
+
+![each user has its own database](https://user-images.githubusercontent.com/42850817/125173820-d1ffc680-e186-11eb-97f4-27c6f0d5c5ad.gif)
+
+<p align="center">
+   Gif.11 demonstration of each user's database
+</p>
+
+- Hangman Mode allow users to play with the words they have already added
+  - new game will start a new game for you
+  
+    - when there is no card to play with, you will be automatically redirected to the adding mode
+    
+![hangman final card](https://user-images.githubusercontent.com/42850817/125175721-80aa0400-e193-11eb-9df8-fa0be48c22a1.gif)
+<p align="center">
+   Gif.12 if there is only one card left, hangman will redirect to add new card mode
+</p>
+    
+  - you only have 5 chances to enter a wrong letter
+  - letters you have already entered will be saved in the letter bank label
+  - view scroll is implemented here to enable users to see more when the label field is not enough to display everything
+  - when you are entering letters, the keyboard will be enabled. Otherwise, the keyboard will be hidden.
+  - when you win you will be automatically redirected to the win view controller. After that you will have three choices, they are starting a new game, exiting the game and seeing the explanations.
+
+![hangman win](https://user-images.githubusercontent.com/42850817/125175491-2ceaeb00-e192-11eb-9700-f4e7dfe439a4.gif)
+
+<p align="center">
+   Gif.12 win the game and get redirected to hangman win view controller
+</p>
+
+![hangmanwin split 3](https://user-images.githubusercontent.com/42850817/125175538-7f2c0c00-e192-11eb-9a30-d08f5cd7ce46.gif)
+
+<p align="center">
+   Gif.13 avilable choices in hangman win view controller: new game, explanation, and exit
+</p>
+
+  - when you loose you will be automatically redirected to the loose view controller. After that you will have three choices, they are starting a new game, exiting the game and seeing the explanations.
+
+![hangman loose explanation](https://user-images.githubusercontent.com/42850817/125174972-be585e00-e18e-11eb-96cd-2cd3ac5ceaa9.gif)
+
+<p align="center">
+   Gif.14 loose the game and get redirected to hangman loose view controller
+</p>
+
+![loose split three](https://user-images.githubusercontent.com/42850817/125174999-f364b080-e18e-11eb-9ba2-62a7ee70215d.gif)
+
+<p align="center">
+   Gif.15 avilable choices in hangman loose view controller: new game, explanation, and exit
+</p>
+
+  - In the explanation field, you have four choices which are deleting the word, adding a new word, starting a game, returning back to the choose mode view controller.
+
+
+
+
+## Requirements
+## Installation
+## Contribute
+## License
